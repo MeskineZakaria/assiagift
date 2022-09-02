@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'myWebFont';
+    src: url('/WORDSOFLOVE.ttf');
+}
+
+body {
+    text-align: center;
+    background: linear-gradient(lightskyblue, pink);
+}
+
+#profil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin-top: 0;
+}
+
+#profil h1 {
+    padding: 10px;
+    font-family: myWebFont;
+    text-shadow: 0px 0px 5px whitesmoke;
+    font-size: 40px;
+    color: #7209b7;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+#profil img {
+    width: 100px;
+    margin-top: 5px;
+    border: 6px solid #fefefe;
+    border-radius: 50%;
+}
+
+#b-day {
+    color: #3d405b;
+    text-shadow: 0px 0px 1px whitesmoke;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px 0 10px 0;
+}
+
+#b-date {
+    margin: 0;
+    color: #3d405b;
+    text-shadow: 0px 0px 1px whitesmoke;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.gifts {
+    margin-top: 50px;
+}
+
+.gifts-img {
+    background-image: url(GIFT1.png);
+    margin: 10px auto;
+    width: 320px;
+    height: 270px;
+    border: 6px solid #ffc8dd;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+.gifts-img1 {
+    background-image: url(GIFT1.png);
+    margin: 10px auto;
+    width: 320px;
+    height: 270px;
+    border: 6px solid #ffc8dd;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+#gift-img-genius {
+    background-image: url(GIFT1.png);
+    margin: 10px auto;
+    width: 320px;
+    height: 270px;
+    border: 6px solid #ffc8dd;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+#gift-img-hot {
+    background-image: url(GIFT1.png);
+    margin: 10px auto;
+    width: 320px;
+    height: 270px;
+    border: 6px solid #ffc8dd;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+#gift-img-cheers {
+    background-image: url(GIFT1.png);
+    margin: 10px auto;
+    width: 320px;
+    height: 270px;
+    border: 6px solid #ffc8dd;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+.gifts-img:hover {
+    background-image: url("https://media.giphy.com/media/5GoVLqeAOo6PK/giphy.gif");
+}
+
+.gifts-img1:hover {
+    background-image: url("https://media.giphy.com/media/WO5Q7FsxJN2pjYc424/giphy.gif");
+}
+
+#gift-img-genius:hover {
+    background-image: url("https://media.giphy.com/media/EbFY5JxXQ3GEw/giphy.gif");
+}
+
+#gift-img-hot:hover {
+    background-image: url("https://media.giphy.com/media/RLVHPJJv7jY1q/giphy.gif");
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+#gift-img-cheers:hover {
+    background-image: url("https://media.giphy.com/media/kL1KAdQYmKXle/giphy.gif");
+}
+
+.gifts h3,
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+footer {
+    padding: 10px;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+/*
+justify content rows
+align items colums
+c'est à dire 
+justify content permet de controller l'item d'une facon vertical(from right to left)
+align-items permet de controller l'item d'une facon horisental(from top to bottom)
+ justify-content:
+    start, center, end, space-around, 
+    space-evenly, space-between
+    
+    align-items:
+    start, center, end
+*/
